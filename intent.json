@@ -1,0 +1,48 @@
+
+  [
+
+    {
+      "response_type": "greetings",
+    "user_input":["hello","hey","hi","good day","greetings","what's up?",
+      "how is it going?","hola","buenas tardes","I have a problem","I need help","I have a problem",
+      "Thanks One of our team is taking a look at and will be with you shortly","I"],
+    "bot_response": ["Hello I'm Yuri!How can I help you today?!","Hey!I'm Yuri!How can I help you today?!","Hola!I'm Yuri!How can I help you today?!",
+      "Hey!I'm Yuri!How can I help you today?","Aloha!I'm Yuri! What can I do for you?!","Hello I'm Yuri! How can I help you today?!"],
+     "required_words": []
+    },
+
+    {
+      "response_type": "problem",
+       "user_input": [
+        "I have a problem",
+        "I need",
+        "my business",
+        "help",
+        "no connection",
+        "sales",
+        "for my",
+        "Yuri"
+      ],
+      "bot_response": [
+        "Could you please provide us with further details about the problem?!
+        "In order to further investigate the issue could you please provide us with
+        "the list of affected devices and Access Points Models, and Mac Addresses so we
+        "can further investigate our logs, connections, and database (in order to further investigate
+       "we would need at least Mac address provided ok).Thanks",
+        "Could you please provide us with more information about the problem?!
+        "In order to further investigate the issue could you please provide us with
+        "the list of affected devices and Access Points Models, and Mac Addresses so we
+        "can further investigate our logs, connections, and database (in order to further investigate
+       "we would need at least Mac address provided ok).Thanks",
+        "What's exactly the problem you are experiencing?!",
+        "Could you please describe your problem?!"],
+      "required_words": []
+    },
+    {
+      "response_type": "goodbye",
+    "user_input":["cya","See you later","Goodbye","I am leaving","Have a Good day","bye","ciao","ciao","see ya"],
+    "bot_response": ["Have a great day","Take Care","Goodbye","See you later"],
+     "required_words": []
+    }
+
+  ]
